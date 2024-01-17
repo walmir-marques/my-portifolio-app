@@ -4,11 +4,11 @@ import Image2 from "../../../public/assets/images/Image2.jpg";
 
 export const About = () => {
   return (
-    <section className="mx-auto container w-5/6 h-screen flex flex-col">
+    <section className="mx-auto container w-5/6 h-screen flex flex-col  mb-32 lg:mb-0">
       <h1 className="text-4xl mt-3 font-bold text-center">
         👤 Sobre <span className="text-sky-700">Mim</span>
       </h1>
-      <div className="flex-1 flex flex-col md:flex-row items-center container mx-auto p-4">
+      <div className="flex-1 flex flex-col lg:flex-row items-center container mx-auto p-4">
         <div className="mx-auto mb-8 md:mb-0 h-48 md:h-96 w-48 md:w-96">
           <Image
             src={Image2}
@@ -41,7 +41,7 @@ export const About = () => {
           </p>
 
           <a
-            className="transition ease-in-out duration-700 w-40 text-center p-2 rounded-full mt-5 font-bold bg-sky-700 text-white hover:bg-white hover:text-sky-700 hover:border hover:border-sky-700"
+            className="transition ease-in-out duration-700 w-40 text-center p-2 rounded-full mt-5 font-bold bg-sky-700 text-white hover:bg-white hover:text-sky-700 hover:border hover:border-sky-700 mx-auto lg:mx-0"
             href="https://drive.google.com/uc?export=download&id=1tRTBhle9SA8lint24DyR0NF1nKTGyFIn"
             target="_blank"
           >

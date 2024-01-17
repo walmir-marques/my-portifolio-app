@@ -14,7 +14,9 @@ export const Home = () => {
         </p>
 
         <h3 className="text-3xl">Um estudante de Front-End.</h3>
-        <Socials />
+        <div className=" mx-auto">
+          <Socials />
+        </div>
       </div>
       <div className="h-48 md:h-96 w-48 md:w-96 mt-8 md:mt-0">
         <Image
