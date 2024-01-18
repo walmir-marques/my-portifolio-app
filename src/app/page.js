@@ -4,6 +4,7 @@ import { About } from "./components/About";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { Technologies } from "./components/Technologies";
+import { Projects } from "./components/Projects";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <Home />
       <About />
       <Technologies />
+      <Projects />
     </div>
   );
 }

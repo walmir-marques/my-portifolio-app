@@ -1,4 +1,4 @@
-export const technologies = [
+export const techs = [
   { name: "HTML5", source: "/assets/images/html.png" },
   { name: "CSS", source: "/assets/images/css.png" },
   { name: "Javascript", source: "/assets/images/js.png" },
