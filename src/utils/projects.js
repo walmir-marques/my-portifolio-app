@@ -1,5 +1,13 @@
 export const projects = [
   {
+    name: "Carrinho de Compras",
+    source: "/assets/images/cart.png",
+    description:
+      "Projeto desenvolvido em react. Foram usados conceitos como components, useState , ContextApi, fetch e iteração com Apis. Esse projeto tem como intuito simular um carrinho de compras, utilizando produtos buscados pela api do mercado livre",
+    view: "https://carrinho-de-compras-app.vercel.app/",
+    git: "https://github.com/walmir-marques/carrinho-de-compras-app",
+  },
+  {
     name: "IMC Calculator",
     source: "/assets/images/imc.png",
     description:
