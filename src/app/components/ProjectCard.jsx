@@ -15,8 +15,10 @@ export const ProjectCard = ({ item }) => {
       </div>
       <div className="flex flex-col gap-3 mt-5">
         <h1 className="text-2xl font-bold text-center">{item.name}</h1>
-        <p className="text-lg font-semibold mx-3">{item.description}</p>
-        <div className="flex justify-center my-10 gap-10">
+        <p className="text-lg font-semibold mx-5 text-center">
+          {item.description}
+        </p>
+        <div className="my-10 gap-10 text-center">
           <a
             href={item.view}
             target="_blank"
